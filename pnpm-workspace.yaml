@@ -1,0 +1,9 @@
+packages:
+  - .
+allowBuilds:
+  bcrypt: true
+  sharp: set this to true or false
+minimumReleaseAge: 2880
+overrides:
+  '@types/react': 19.3.0
+  '@types/react-dom': 19.3.0
