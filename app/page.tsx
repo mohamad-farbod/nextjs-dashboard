@@ -4,6 +4,7 @@ import Link from "next/link";
 import { lusitana } from "@/app/ui/fonts";
 import clsx from "clsx";
 import Image from "next/image";
+import { useSession } from "next-auth/react";
 
 export default function Page() {
   return (
